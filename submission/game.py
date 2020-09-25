@@ -179,7 +179,7 @@ while ready[0] == "y":
         tweet = elon[rTweet]
 
     # Prompt user the tweet
-    print("Attempt: " + str(attempts + 1))
+    print("Attempt: " + str(stats[ATTEMPTS] + 1))
     print("==========\n")
     print(tweet + "\n")
 
